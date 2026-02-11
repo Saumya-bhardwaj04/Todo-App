@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Todo-App/',
+  base: '/Todo-App-React/',
   plugins: [react()],
   build: {
     outDir: 'docs',
